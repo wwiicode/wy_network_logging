@@ -1,3 +1,6 @@
+# wy_network_logging
+
+# description
 A program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag.   The dstport and protocol combination decide what tag can be applied.   
 
 Sample flow logs (default logs, version 2 only). 
@@ -99,7 +102,7 @@ The tags can map to more than one port, protocol combinations.  for e.g. sv_P1 a
 The matches should be case insensitive 
 
 
-Assumption made:
+# Assumption made:
 1. for log entry record that is less than cardinality of 14 will be skipped and will be put in error_log.log.
 2. the program only supports default log format, not custom and the only version that is supported is 2.
 3.
@@ -108,7 +111,7 @@ Assumption made:
     c) Protocol number of ICMP is 1
 
 
-Instruction on testing the code:
+# Instruction on testing the code:
 1. all files required are in side wy_network_logging folder
 2. fake flow_logs data is put into text fortmat name flow_logs.txt
 3. run `python3 utilities/write_lookup.py` to generate the lookup_table.csv lookup_table
@@ -117,10 +120,10 @@ Instruction on testing the code:
 6. outler/flawed log entries wil be recorded into error_log.log (program will not be blocked)
 
 
-Testing Malformed logs:
+# Testing Malformed logs:
 Created flow_logs_with_errors.txt for testing,
 uncomment different flow_log_file variable to try with the testing.
 flawed log record will be caught in error_log.log
 flawed log records will not block streaming
 
-# wy_network_logging
+
