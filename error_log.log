@@ -1,0 +1,16 @@
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 2 123456789012 eni-4d3c2b1a
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - ValueError: invalid literal for int() with base 10: 'abc', Line: 2 123456789012 eni-9h8g7f6e 172.16.0.100 203.0.113.102 abc 49156 6 12 9000 1620140761 1620140821 ACCEPT OK
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Currently only version 2 is accepted
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,381 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,382 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,382 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,382 - ERROR - Malformed line with too few entry): 
+2024-10-06 21:15:39,382 - ERROR - Malformed line with too few entry): 
