@@ -117,13 +117,11 @@ The matches should be case insensitive
 3. run `python3 utilities/write_lookup.py` to generate the lookup_table.csv lookup_table
 4. run `python3 main.py` will kick off the main program
 5. output from program will be save into output.txt
-6. outler/flawed log entries wil be recorded into error_log.log (program will not be blocked)
 
 
 # Testing Malformed logs:
 Created flow_logs_with_errors.txt for testing,
 uncomment different flow_log_file variable to try with the testing.
-flawed log record will be caught in error_log.log
-flawed log records will not block streaming
+outler/flawed log entries wil be recorded into error_log.log, streaming will not be blocked
 
 
