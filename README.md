@@ -115,8 +115,8 @@ The matches should be case insensitive
 1. all files required are in side wy_network_logging folder
 2. fake flow_logs data is put into text fortmat name flow_logs.txt
 3. run `python3 utilities/write_lookup.py` to generate the lookup_table.csv lookup_table
-4. run 'python3 main.py' will kick off the main program
-5. output from program will be save into output.txt and faw
+4. run `python3 main.py` will kick off the main program
+5. output from program will be save into output.txt
 6. outler/flawed log entries wil be recorded into error_log.log (program will not be blocked)
 
 
