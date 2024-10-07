@@ -120,8 +120,8 @@ The matches should be case insensitive
 
 
 # Testing Malformed logs:
-Created flow_logs_with_errors.txt for testing,
-uncomment different flow_log_file variable to try with the testing.
-outler/flawed log entries wil be recorded into error_log.log, streaming will not be blocked
+1.Created flow_logs_with_errors.txt for testing,
+2.uncomment different flow_log_file variable to try with the testing.
+3.outler/flawed log entries wil be recorded into error_log.log, streaming will not be blocked
 
 
